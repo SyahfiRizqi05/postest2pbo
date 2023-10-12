@@ -12,7 +12,7 @@ import java.util.Scanner;
 
 
 
-public  final class Posttes2 {
+public  final class Posttes2 { 
     
 
     public final static void main(String[] args) {
@@ -29,7 +29,7 @@ public  final class Posttes2 {
             System.out.println("4. Update bag");
             System.out.println("5. Delete bag");
             System.out.println("6. Exit");
-            System.out.print("Your choice: ");
+            System.out.println("Your choice: ");
 
             String pilihan = scanner.nextLine();
 
@@ -99,26 +99,26 @@ public  final class Posttes2 {
                             double newprice = scanner.nextDouble();
 
                             
-                            Bag hpBaru = new Bag(newname, BrandNew, newprice);
+                            Bag bagBaru = new Bag(newname, BrandNew, newprice);
 
                             
-                            ListBag.set(i, hpBaru);
+                            ListBag.set(i, bagBaru);
 
-                            System.out.println("HP updated successfully!");
+                            System.out.println("Bag updated successfully!");
                             ditemukanUpdate = true;
                             break;
                         }
                     }
 
                     if (!ditemukanUpdate) {
-                        System.out.println("HP not found.");
+                        System.out.println("Bag not found.");
                     }
                     break;
 
 
                     
                 case "5":
-                    System.out.print("Enter the name of the cellphone you want to delete:");
+                    System.out.print("Enter the name of the Bag you want to delete:");
                     String namebagDelete = scanner.nextLine();
 
                     
@@ -126,7 +126,8 @@ public  final class Posttes2 {
                     while (iterator.hasNext()) {
                     Bag objekbag = iterator.next();
                         if (objekbag.getName().equalsIgnoreCase(namebagDelete)) {
-                            iterator.remove(); 
+                            iterator.remove();
+                          
                         }
                     }
                     break;
