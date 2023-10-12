@@ -72,10 +72,11 @@ pada gambar di atas berguna untuk mengupdate barang yang terdapat di dalam sebua
 String namaUpdate = scanner.nextLine(); - Ini digunakan untuk membaca input yang dimasukkan oleh pengguna, yaitu nama tas yang akan diupdate. Input ini disimpan dalam variabel namaUpdate 
 if (s.getName().equalsIgnoreCase(namaUpdate)) { - Dalam setiap iterasi, program memeriksa apakah nama objek Bag yang sedang diloop (s.getName()) sama dengan nama yang dimasukkan oleh pengguna (namaUpdate). Metode equalsIgnoreCase() digunakan untuk membandingkan nama secara case-insensitive (tidak memperhatikan huruf besar atau kecil).
 
-![image](https://github.com/SyahfiRizqi05/postest2pbo/assets/127517301/52dcaa86-c60d-4f14-bbc9-2c5030a5890e)
+![image](https://github.com/SyahfiRizqi05/postest2pbo/assets/127517301/8f6facac-f2b5-41d0-81b3-c8df5ac20492)
+
 
 pada gambar di atas menjelaskan perintah untuk menghapus barang yang terdapat di dalam menu dan
-System.out.print("Enter the name of the cellphone you want to delete:"); - Program mencetak pesan ke layar yang meminta pengguna untuk memasukkan nama tas yang ingin dihapus.
+System.out.print("Enter the name of the Bag you want to delete:"); - Program mencetak pesan ke layar yang meminta pengguna untuk memasukkan nama tas yang ingin dihapus.
 String namebagDelete = scanner.nextLine(); - Ini digunakan untuk membaca input yang dimasukkan oleh pengguna, yaitu nama tas yang akan dihapus. Input ini disimpan dalam variabel namebagDelete.
 
 ![image](https://github.com/SyahfiRizqi05/postest2pbo/assets/127517301/da01e587-9c0d-44b3-8124-72d7fce0911e)
